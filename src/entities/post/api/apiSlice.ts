@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { IPost } from "../model/types";
 import { IParams } from "../../../widgets/PostList/ui";
 
-const BASE_URL = import.meta.env.VITE_BASE_URL
+const BASE_URL = "https://jsonplaceholder.typicode.com"
 
 export const apiSlice = createApi({
     reducerPath: 'apiSlice',
